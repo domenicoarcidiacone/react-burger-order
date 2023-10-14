@@ -12,7 +12,7 @@ const AvailableMeals = () => {
   useEffect(() => {
     const fetchMeals = async () => {
       const response = await fetch(
-        'https://react-http-cd1d6-default-rtdb.europe-west1.firebasedatabase.app/meals.json'
+        'https://burger-builder-e2e13-default-rtdb.europe-west1.firebasedatabase.app/meals.json'
       );
 
       if (!response.ok) {
